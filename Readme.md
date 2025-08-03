@@ -38,6 +38,7 @@ various kinds of image degradation on persisted frames, while OEM console
 with an original screen (and most aftermarket LCDs) will continue to show
 the original image without issue aside from some shimmering).
 
+# Hardware Behavior
 See the photos in the `console_photos` folder for examples from OEM and Clone hardware.
 - OEM hardware with OEM screens: the test pattern image looks as expected.
 - OEM hardware with aftermarket screens: most look as expected with occasional small quirks.
