@@ -32,11 +32,11 @@ This project is built on the GBDK "Hi-Color" example which is a useful test-bed
 since it continually modifies the GBC color palette registers as the screen is
 being drawn for each frame.
 
-This means that screen LCD drivers screens or hardware PPU implementations
+This means that screen LCD drivers or hardware PPU implementations
 (FPGA-based clones) which don't exactly mimic the OEM behavior will exhibit
-various kinds of image degradation on persisted frames, while OEM console 
+various kinds of image degradation on persisted frames, while an OEM console 
 with an original screen (and most aftermarket LCDs) will continue to show
-the original image without issue aside from some shimmering).
+the original image without issue aside from some shimmering.
 
 # Hardware Behavior
 See the photos in the `console_photos` folder for examples from OEM and Clone hardware.
@@ -57,5 +57,6 @@ The following emulators are known to emulate the frame persistence:
 
 # Example image
 Example image Pixel art originally by RodrixAP under Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+
 https://www.flickr.com/photos/rodrixap/10591266994/in/album-72157637154901153/
 
