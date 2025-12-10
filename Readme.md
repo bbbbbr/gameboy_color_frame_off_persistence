@@ -1,4 +1,4 @@
-# Game Boy Color Frame Persistence / Duplication Quirk
+# Game Boy Color LCD Frame Persistence / Duplication Quirk
 GBDK Example for utilizing the GBC hardware quirk which allows previously 
 rendered video frames to be persisted / duplicated on the screen while the
 underlying VRAM contents are modified. The duplication is achieved by
