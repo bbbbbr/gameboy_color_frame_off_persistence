@@ -42,12 +42,15 @@ the original image without issue aside from some shimmering.
 See the photos in the `console_photos` folder for examples from OEM and Clone hardware.
 - OEM hardware with OEM screens: the test pattern image looks as expected.
 - OEM hardware with aftermarket screens: most look as expected with occasional small quirks.
-- SOC clones with their OEM Screens (GBBoy Colour variants): the test pattern image looks as expected.
+- SOC clones with their OEM Screens:
+  - GBBoy Colour back-lit variant: the test pattern image looks as expected.
+  - GBBoy Colour non-back-lit variant: the screen goes entirely blank-white on duplicated frames. (Fail)
+  - GBBoy Colour Extension-converter-GB in a SNES 16-Bit Pocket: the test pattern image looks as expected.
 - SOC clones with an aftermarket LCDs (GBBoy Colour variant): the image has minor glitches, and then offsets as persistence duration increases
 - FPGA Clones
-  - Analogue Pocket (cart slot): The image is entirely corrupted
-  - Modretro Chromatic: For the first frame the image looks, subsequent frames have white flashes
-  - FPGBC (core v1.14): The image is entirely corrupted
+  - Analogue Pocket (cart slot): The image is entirely corrupted (Fail)
+  - Modretro Chromatic: For the first frame the image looks, subsequent frames have white flashes (Semi-Fail)
+  - FPGBC (core v1.14): The image is entirely corrupted (Fail)
 
 # Emulators
 The following emulators are known to emulate the frame persistence:
